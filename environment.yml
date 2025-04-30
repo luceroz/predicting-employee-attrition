@@ -1,20 +1,20 @@
-name: predicting-employee-attition
+name: predicting-employee-attrition
 channels:
+  - defaults
   - conda-forge
 dependencies:
   - python=3.10
-  - pip
-  - typer
-  - loguru
-  - tqdm
-  - ipython
-  - jupyterlab
-  - matplotlib
-  - notebook
-  - numpy
   - pandas
+  - numpy
+  - matplotlib
+  - seaborn
   - scikit-learn
-  - ruff
+  - xgboost
+  - shap
+  - jupyter
+  - ipykernel
+  - scipy
+  - tqdm
+  - pip
   - pip:
-    - python-dotenv
-    - -e .
+      - category_encoders
