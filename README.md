@@ -1,5 +1,7 @@
 # Predicting Employee Attrition
 
+This project builds a machine learning pipeline to predict which employees are at risk of leaving a company, using HR data. The goal is to empower Human Resources departments to proactively intervene and reduce attrition-related costs.
+
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
