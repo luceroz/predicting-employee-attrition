@@ -61,3 +61,27 @@ cookiecutter
 
 --------
 
+## How To Reproduce
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/luceroz/predicting-employee-attrition.git
+   cd predicting-employee-attrition
+3. Set up the environment
+   ```bash
+   pip install -r requirements.txt
+5. Run notebooks in order under /notebooks/
+   - 01_EDA.ipynb
+   - 02_Cleaning.ipynb
+   - 03_Feature_Engineering.ipynb
+   - 04_Modeling.ipynb
+   - 05_Model_Tuning.ipynb
+   - 06_Interpretation.ipynb
+7. Generate Report
+   - Final figures are stored in /reports/figures
+
+
+## Project Links
+- [Final Report (PDF)](https://drive.google.com/file/d/11BTDEYlNZFiPs5S_eaE_PQKM9nFKcfc3/view?usp=drive_link)
+- [Slide Deck (Google Slides)](https://docs.google.com/presentation/d/1tQBR0kJ2RE90CZ24rCsgjDdydAXyqQMD2nIJhCLCNBM/edit?usp=drive_link)
+- [Presentation Video](https://drive.google.com/file/d/1-V5uPAzntKHNoq8Uj--mQlXt0Fx0XF2G/view?usp=drive_link)
